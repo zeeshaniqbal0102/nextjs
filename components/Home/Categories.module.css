@@ -1,0 +1,107 @@
+#knives {
+    background: url('/images/knives.png') no-repeat center center/cover;
+    align-items: center;
+    justify-content: flex-start;
+}
+#edc {
+    background: url('/images/edc.png') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 140px;
+}
+#fidget {
+    background: url('/images/fidget.png') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 140px;
+}
+#knives,
+#secondSec {
+    display: flex;
+    max-height: 550px;
+    height: 550px;
+}
+.categoriesCol {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.categoryTitle {
+    margin-bottom: 15px;
+}
+.categoryDescription {
+    font-size: 18px;
+    line-height: 21px;
+}
+.categoryBottom {
+    margin-top: 120px;
+}
+#secondSec .categoryBottom {
+    width: 80%;
+}
+#secondSec .btn,
+#secondSec .btnWhite {
+    width: fit-content !important;
+}
+#secondSec .categoriesCol {
+    max-width: 80%;
+}
+
+/* Mobile Version */
+.mobileVersion a {
+    background: rgba(255, 255, 255, 0.75) !important;
+    padding: 10px 20px !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+}
+#mobileKnives {
+    background: url('/images/mobile-knives.png') no-repeat center center/cover;
+    align-items: center;
+    justify-content: center;
+}
+#mobileEDC {
+    background: url('/images/mobile-edc.png') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mobileFidget {
+    background: url('/images/mobile-fidget.png') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mobileKnives {
+    display: flex;
+    max-height: 247px;
+    height: 247px;
+}
+#mobileEDC,
+#mobileFidget {
+    display: flex;
+    max-height: 200px;
+    height: 200px;
+}
+
+@media (min-width: 1200px) {
+    .categoryTitle {
+        font-size: 48px;
+        line-height: 65px;
+    }
+    .categoryLink {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+@media (max-width: 991px) {
+    .categoryTitle,
+    .categoryDescription {
+        display: none;
+    }
+    .categoriesWrapper {
+        overflow: hidden;
+    }
+}

@@ -1,0 +1,55 @@
+.container {
+    padding: 30px 10px 40px 10px;
+    overflow: hidden;
+}
+.formControl {
+    padding: 15px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 16px;
+    resize: vertical;
+    margin-top: 10px;
+}
+.btnSubmit {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    outline: 0;
+    background: var(--clr-accent-1);
+    color: #fff;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.btnSubmit:hover {
+    background: var(--clr-dark);
+}
+/* disabled buttton */
+.btnSubmit:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+.shipInfoText ul li {
+    list-style: disc;
+}
+
+@media (min-width: 767px) {
+    .container {
+        padding: 60px 20px 50px 20px;
+    }
+    .breadCol ol {
+        justify-content: flex-start !important;
+    }
+    .shipInfoText p {
+        font-size: 20px;
+    }
+    .shipInfoText {
+        padding: 0px;
+    }
+}

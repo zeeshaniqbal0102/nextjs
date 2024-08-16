@@ -1,0 +1,43 @@
+.homeBanner {
+    max-width: 1170px;
+    width: 70%;
+    padding: 80px 0;
+    text-align: center;
+}
+.bannerDesc {
+    margin: auto;
+    margin-top: 34px;
+    margin-bottom: 54px;
+    max-width: 80%;
+}
+
+@media (min-width: 1200px) {
+    .homeBannerTitle {
+        font-size: 96px;
+        line-height: 130px;
+    }
+    .bannerDesc {
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
+@media (max-width: 991px) {
+    .homeBanner {
+        width: 100%;
+        padding: 60px 10px;
+    }
+    .bannerDesc {
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 14px;
+        list-style: 16px;
+        max-width: 80%;
+    }
+}
+@media (max-width: 767px) {
+    .homeBannerTitle {
+        font-size: 32px;
+        line-height: 43px;
+    }
+}

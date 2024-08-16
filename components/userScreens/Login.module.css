@@ -1,0 +1,149 @@
+.login {
+    text-align: center;
+    padding: 80px 0;
+}
+.login h3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.login h2 {
+    font-size: 500;
+    font-family: 'Gilroy' !important;
+    margin-bottom: 40px;
+}
+.loginContainer {
+    margin-top: 40px !important;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 5px;
+    padding: 50px 30px;
+    padding-top: 0;
+}
+.loginFormGroup {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .loginFormGroup label {
+    margin-right: 10px;
+} */
+.loginFormGroup input {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: var(--input-radius);
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 400;
+    color: var(--clr-black);
+}
+.loginFormGroup input.mrInput {
+    padding: 15px 20px !important;
+    color: var(--clr-black) !important;
+    font-size: 18px;
+    line-height: 21px;
+    border-radius: 5px;
+}
+.loginFormGroup input.mrInput:focus {
+    border: 1px solid var(--clr-dark);
+}
+.loginFormGroup button {
+    background: var(--clr-dark) !important;
+    color: var(--clr-white) !important;
+    border: none !important;
+    max-width: 30%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* .loginFormGroup button:hover {
+    background: var(--clr-dark) !important;
+    color: var(--clr-dark) !important;
+} */
+.loginLinks {
+    /* margin-top: 40px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginLinks a {
+    margin-right: 20px;
+}
+.loginLinks a:hover {
+    text-decoration: underline !important;
+}
+.loginLinks a:last-child {
+    margin-right: 0;
+}
+.loginNotice {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.forgotNotice {
+    text-align: left;
+}
+.btnSubmit {
+    max-width: 80% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* disabled buttton */
+.btnSubmit:disabled {
+    background: #ccc !important;
+    cursor: not-allowed;
+}
+.textLeft {
+    text-align: left !important;
+}
+
+@media (min-width: 1200px) {
+    .login h1 {
+        font-size: 64px;
+        line-height: 86px;
+    }
+    .login h3 {
+        font-size: 38px;
+        line-height: 51px;
+    }
+    .login h2 {
+        font-size: 48px;
+        line-height: 56px;
+    }
+}
+@media (max-width: 767px) {
+    .login h1 {
+        font-size: 32px;
+        line-height: 43px;
+    }
+    .login h2 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 25px;
+    }
+    .login h3 {
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .login p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .forgotBtn {
+        max-width: 50% !important;
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .forgotBtn {
+        max-width: 90% !important;
+    }
+}

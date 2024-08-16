@@ -1,0 +1,8 @@
+.heading {
+    color: var(--clr-heading-primary);
+}
+.text {
+    color: var(--clr-heading-primary);
+    font-size: inherit;
+    font-weight: 400;
+}

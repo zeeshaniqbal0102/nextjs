@@ -1,0 +1,15 @@
+.address p {
+    margin: 0;
+}
+.orderTable2 p {
+    font-size: 20px !important;
+}
+.orderRow2 {
+    padding-bottom: 14px !important;
+    margin-bottom: 14px !important;
+}
+@media (max-width: 767px) {
+    .orderTable2 p {
+        font-size: 16px !important;
+    }
+}

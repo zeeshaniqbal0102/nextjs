@@ -1,0 +1,113 @@
+.newsLetter {
+    /* height: 550px; */
+    background: url('/images/contact.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0 150px 0;
+}
+.newsLetter h2 {
+    /* font-size: 48px; */
+    /* line-height: 65px; */
+    color: var(--clr-white);
+}
+.newsLetter form {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: space-between; */
+    text-align: center;
+}
+.newsLetter input {
+    max-width: 450px;
+    width: 90%;
+    height: 55px;
+    border: 1px solid var(--clr-white);
+    color: var(--clr-white);
+    border-radius: 5px;
+    background: transparent;
+    padding: 0 50px;
+    font-size: 20px;
+    line-height: 25px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.newsLetter input:focus {
+    outline: none;
+}
+.newsLetter button {
+    margin-bottom: 10px;
+}
+/* .newsLetter button {
+    color: var(--clr-dark);
+    font-size: 24px;
+    border: 1px solid var(--clr-white);
+    background: var(--clr-white);
+}
+.newsLetter button:hover {
+    color: var(--clr-white);
+} */
+
+@media (min-width: 1200px) {
+    .newsLetter h2 {
+        font-size: 48px;
+        line-height: 65px;
+    }
+    .newsLetter input {
+        max-width: 630px;
+        width: 100%;
+    }
+    .newsLetter button {
+        padding: 15px 100px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .newsLetter {
+        height: auto;
+        padding: 70px 10px 100px 10px;
+        text-align: center;
+        background: url('/images/contact-mobile.png') no-repeat;
+        background-size: cover;
+    }
+    .newsLetter h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .newsLetter form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .newsLetter input {
+        max-width: 100%;
+        width: 100%;
+        font-size: 14px;
+        line-height: 16px;
+        height: 45px;
+        margin-right: 0;
+    }
+    .newsLetter button {
+        margin: 0;
+        margin-top: 40px;
+        width: 100%;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .newsLetter form {
+        margin-top: 40px;
+    }
+    .newsLetter input {
+        margin-bottom: 0px;
+    }
+    .newsLetter form button {
+        margin-top: 25px;
+    }
+}
